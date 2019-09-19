@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+easydict = "==1.7"
+opencv-python = "==3.4.1.15"
+scipy = "*"
+pandas = "*"
+scikit-image = "*"
+torchvision = "*"
+Cython = "*"
+PyYAML = "*"
+json_tricks = "*"
+tensorboardX = ">=1.2"
+
+[requires]
+python_version = "3.6"
